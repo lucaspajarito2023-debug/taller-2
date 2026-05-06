@@ -1,0 +1,47 @@
+
+:root {
+    /* Azules Primarios (Cielo y Agua) */
+    --ocean: #2C576A; 
+    --deep-water: #07354C;
+  
+    /* Neutros Oscuros (Sombras y Texto) */
+    --night: #141A20;
+    --slate: #45525A;
+  
+    /* Grises y Fondos (Rocas y Hielo) */
+    --wild-grey: #6F7375;
+    --mist: #828D96;
+    --arctic: #f1f1f1;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--arctic);
+    align-items: center;
+    text-align: center;
+  }
+ 
+.header__title{
+    color: var(--ocean);
+    font-size: 40px;
+    text-shadow:white 0  0  52px , rgb(0, 81, 255) 0 0 5px;
+    font-family: "Lobster", sans-serif;
+    background-color: var(--mist);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    border: var(--deep-water) 1px solid;
+}
+
+nav{
+    margin-top: 2dvh;
+}
+.mi-input{
+    width: 35%;
+    height:35px;
+    border-radius: 10px;
+}
+.mi-btn{
+    height:100px;
+    border-radius: 10px;
+}
