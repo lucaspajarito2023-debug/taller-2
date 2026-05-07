@@ -1,47 +1,77 @@
-
-:root {
-    /* Azules Primarios (Cielo y Agua) */
-    --ocean: #2C576A; 
-    --deep-water: #07354C;
-  
-    /* Neutros Oscuros (Sombras y Texto) */
-    --night: #141A20;
-    --slate: #45525A;
-  
-    /* Grises y Fondos (Rocas y Hielo) */
-    --wild-grey: #6F7375;
-    --mist: #828D96;
-    --arctic: #f1f1f1;
-  }
+:root{
+    --color-primary: #D0D1D3;/*Fondo general de la pagina.*/
+    --text-dark: #141A20; /* Texto principal (cuerpo).*/
+    --acent-blue: #2C576A;  /* Titulos principales o fondos de secciones destacadas.*/
+    --nav--dark: #07354C;   /* Barra de navegacion.*/
+    --card-border: #828D96; /* Fondos secundarios o estados de botones (hover).*/
+    --subtitles-text: #45525A;/*Subtitulos o bordes de targetas de animales.*/
+}
   body{
     margin: 0;
     padding: 0;
-    background-color: var(--arctic);
+    background-color: var(--color-primary);
     align-items: center;
     text-align: center;
   }
  
 .header__title{
-    color: var(--ocean);
+    color: var(--text-dark);
     font-size: 40px;
-    text-shadow:white 0  0  52px , rgb(0, 81, 255) 0 0 5px;
+    text-shadow:white 0 0 52px , rgb(234, 253, 124) 0 0 5px;
     font-family: "Lobster", sans-serif;
-    background-color: var(--mist);
+    background-color: var(--nav--dark);
     padding: 20px;
-    margin: 10px;
+    margin: 7px;
     border-radius: 25px;
-    border: var(--deep-water) 1px solid;
+    border: var(--nav--dark) solid;
 }
-
 nav{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
     margin-top: 2dvh;
+    flex-wrap: wrap;
+}
+.card-buscar{
+    width: 50%;
 }
 .mi-input{
-    width: 35%;
+    width: 500px;
     height:35px;
     border-radius: 10px;
 }
-.mi-btn{
-    height:100px;
+
+#mi-btn{
+    width: 90px;
+    height:35px;
     border-radius: 10px;
+}
+
+main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    justify-content: center;
+    gap: 15px;
+}
+.animals-caracteristics{
+    border:var(--nav--dark) 2px solid;
+    height: 400px;
+    width : 70%;
+    border-radius: 25px;
+}
+.animals-images{
+    border:var(--nav--dark) 2px solid;
+    height: 400px;
+    width: 25%; 
+    border-radius: 25px;
+
+}
+footer{
+    margin-top: 30px;
+    background-color: var(--subtitles-text);
+    opacity: 75%;
+    padding: 2px;
 }
