@@ -12,23 +12,23 @@
     background-color: var(--color-primary);
     align-items: center;
   }
- 
 .header__title{
+     font-family: "Lobster Two", sans-serif;
+    text-align: center;
     color: var(--text-dark);
     font-size: 40px;
     text-shadow:white 0 0 52px , rgb(234, 253, 124) 0 0 5px;
-    font-family: "Lobster", sans-serif;
     background-color: var(--nav--dark);
     padding: 20px;
     margin: 7px;
     border-radius: 25px;
-    border: var(--nav--dark) solid;
+    border: var(--nav--dark) solid; 
 }
 nav{
     display: flex;
     gap: 50px;
     justify-content: center;
-    margin-top: 2dvh;
+    margin-top: 2px;
     flex-wrap: wrap;
 }
 .card-buscar{
@@ -56,9 +56,8 @@ nav{
 #mi-btn:hover{
     background-color: var(--acent-blue);
 }
-
 main{
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -82,12 +81,15 @@ main{
     background-color:white;
     overflow: hidden;
 }
+
 footer{
-    margin-top: 30px;
+    text-align: center;
+    margin-top: 10px;
     background-color: var(--subtitles-text);
     opacity: 75%;
     padding: 2px;
 }
+
 .card-animal{
 
     background-color: white;
@@ -131,6 +133,7 @@ footer{
     max-width: 50%;
 } 
 #loader{
+    text-align: center;
     color: var(--nav--dark);
     margin-top: 150px;
     font-size: 30px;

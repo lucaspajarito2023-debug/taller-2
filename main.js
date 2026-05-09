@@ -52,7 +52,7 @@ const informacionAnimales = [
 
 async function obtenerAnimlaes(){
     try{
-        const respuesta= await fetch("https://api.thecatapi.com/v1/images/search?limit=10")
+        const respuesta= await fetch("https://gdbrowser.com/api")
 
         const datos = await respuesta.json();
 
