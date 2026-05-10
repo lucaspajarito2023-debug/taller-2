@@ -167,6 +167,14 @@ footer{
     }
     .animals-caracteristics{
         width: 90%;
+        overflow: hidden;
+
+    }
+    .animals-caracteristics img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding: 5px;
     }
     .mi-input{
         width: 60%;
