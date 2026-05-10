@@ -72,6 +72,16 @@ main{
     background-color: white;
     padding: 20px;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.animals-caracteristics img{
+    object-fit: cover;
+    height: 400px;
+    width:850px;
+    box-shadow: black 0 0 22px;
+    border-radius: 25px;
+    opacity: 50%;
 }
 .animals-images{
     border:var(--nav--dark) 2px solid;
@@ -160,6 +170,7 @@ footer{
     }
     .mi-input{
         width: 60%;
+      
     }
     
 }
